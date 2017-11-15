@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    top: 30%;
+}
+
+aside li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+aside a {
+    color: #fff;
+}
+
+.container {
+    width: 1260px;
+    height: 1782px;
+    position: relative;
+    margin: 0;
+    box-shadow: none;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 450px;
+    padding: 25px;
+    color: #fff;
+    line-height: 1.5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.title {
+    margin: 25px 0 20px;
+    text-align: center;
+}
+
+.title img {
+    display: block;
+    margin: 0 auto 15px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.side-info li {
+    padding-top: 20px;
+}
+
+.side-info dt {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.side-info dd {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.someRight dd {
+    margin-left: 25px;
+}
+
+.skill {
+    position: relative;
+}
+
+.skill-name {
+    width: 100px;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: -3px;
+}
+
+.skill-bar-wrap {
+    height: 17px;
+    width: 150px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.skill-bar {
+    height: 17px;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+}
+
+.note {
+    text-indent: 2em;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.qr {
+    position: absolute;
+    bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.qr-in {
+    margin: 0 auto;
+}
+
+.qr-in img {
+    width: 200px;
+}
+
+.qr-in a {
+}
+
+.main {
+    position: relative;
+    left: 450px;
+    width: 810px;
+    height: 1782px;
+    padding: 15px 20px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main a {
+}
+
+.main-info > li {
+    padding-top: 10px;
+}
+
+.main-info dt {
+    font-size: 26px;
+    line-height: 30px;
+    border-bottom: 1px solid #00796b;
+    margin: 0 0 15px -5px;
+}
+
+.main-info dd {
+    font-size: 17px;
+    line-height: 27px;
+    color: #616161;
+}
+
+.main-info span {
+    color: #000;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0 0 15px 5px;
+}
+
+h4 {
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    position: relative;
+    bottom: 3px;
+}
+
+h4 a,
+h5 a {
+    font-size: 14px;
+}
+
+h5 {
+    clear: both;
+    font-size: 18px;
+    color: #000;
+    line-height: 25px;
+}
+
+.circle {
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    float: left;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+}
+
+.exp {
+    margin-left: 15px;
+}
+
+.exp p {
+    font-size: 15px;
+    color: #616161;
+    line-height: 21px;
+}
+
+.exp > li {
+    position: relative;
+    top: -5px;
+    margin: 0 0 8px 20px;
+}
+
+.exp img {
+    width: 150px;
+}
+
+.exp ul > li {
+    margin: 0 0 12px 0;
+}
+
+.efe .task4img img {
+    height: 73px;
+    width: inherit;
+}
