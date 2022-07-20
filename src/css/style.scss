@@ -320,7 +320,7 @@ footer a {
     color: $secondColor;
 }
 
-.throb {
+.throb::before {
     -webkit-animation: throb 1.33s ease-in-out infinite;
     animation: throb 1.33s ease-in-out infinite;
 }
